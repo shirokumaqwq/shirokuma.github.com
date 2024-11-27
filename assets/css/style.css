@@ -112,8 +112,25 @@
 }
 
 
+.paper-title-link {
+  color: hsl(45, 100%, 72%);  /* A blue color for the title link */
+}
 
+.paper-title-link:hover {
+  color: hsl(45, 100%, 72%);  /* A blue color for the title link */
+  text-decoration: underline; 
+}
 
+.paper-author-link {
+  display: inline;
+  color: white;  /* A blue color for the title link */
+}
+
+.paper-author-link:hover  {
+  display: inline;
+  color: white;  /* A blue color for the title link */
+  text-decoration: underline; 
+}
 
 /*-----------------------------------*\
   #RESET
@@ -125,7 +142,9 @@
   box-sizing: border-box;
 }
 
-a { text-decoration: none; }
+a { 
+  text-decoration: none; 
+}
 
 li { list-style: none; }
 
